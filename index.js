@@ -1,9 +1,7 @@
 // 1---
 const buttonEl = document.querySelector(".btn");
 const inputEl = document.querySelector('[type="text"]');
-console.log(buttonEl);
-console.log(inputEl);
-buttonEl.value = inputEl.value;
+buttonEl.textContent = inputEl.value
 // 2
 const imgEl = document.querySelector(".photo");
 imgEl.src =
@@ -17,3 +15,8 @@ const img2El = document.querySelector(".photos");
 img2El.alt = "line5678";
 console.log(img2El);
 // 4
+const listEl = document.querySelector(".list")
+const firstCh = listEl.firstElementChild;
+firstCh.textContent = "tytyty";
+console.log(firstCh);
+
